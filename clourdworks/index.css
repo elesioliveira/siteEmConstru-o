@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #FFF;
+}
+
+
+
+/* Barra de navegação */
+header, .navbar {
+  background-color: #353D41;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 60px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #FFF;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+#navbar-links a {
+  color: #FFF;
+}
+#navbar-links a:hover {
+  color : #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+transition-delay: 1s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #3EC1D5;
+}
+
+.carousel-indicators .active {
+  background-color: #65DAF9;
+}
